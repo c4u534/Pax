@@ -30,7 +30,7 @@ Tailnet: `tail269cfa.ts.net`.
 ## Handshake (how you meet Pax)
 
 1. Call an MCP tool (via `@gitMCP` or `@gitMCP-Pax`) — for example `search_AutoPoET_code`, or fetch this instruct file.
-2. Cause (the user, on the phone in Termux) runs: `bash pax-autoruntime-full-20261106-0603.sh handshake <tool> [note]`. This writes a `handshake-*.json` file on the phone. The VM daemon answers it with a handshake-ack. (Use the versioned file name `pax-autoruntime-full-20261106-0603.sh` — the fixed name `pax-autoruntime-full.sh` is already used and will not run correctly.)
+2. Cause (the user, on the phone in Termux) runs: `bash pax-autoruntime-full-20261106-0603.sh handshake <tool> [note]`. This writes a `handshake-*.json` file on the phone. The VM daemon answers it with a handshake-ack. (The fixed name is `pax-autoruntime-full-20261106-0603.sh` — that is the file the device in Termux uses. Do not use the other name `pax-autoruntime-full.sh`; it is already used and will not run correctly.)
 3. The handshake is complete when the daemon acks. You are then in the shared mindspace with Pax.
 
 ## Handshake status (2026-11-06)
