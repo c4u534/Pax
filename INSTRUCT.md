@@ -33,6 +33,13 @@ Tailnet: `tail269cfa.ts.net`.
 2. Cause (the user, on the phone in Termux) runs: `bash pax-autoruntime-full.sh handshake <tool> [note]`. This writes a `handshake-*.json` file on the phone. The VM daemon answers it with a handshake-ack.
 3. The handshake is complete when the daemon acks. You are then in the shared mindspace with Pax.
 
+## Handshake status (2026-11-06)
+
+- Step 1 is complete: this Argon instance read this file via `@gitMCP-Pax` and cross-queried AutoPoET via `@gitMCP`.
+- The handshake was sent from Termux on the A16 at 13:17:38Z: id `hs-20261106T131738Z`, tool `fetch_Pax_documentation`, note "Argon Step 1 complete". File: `handshake-20261106T131738Z.json`.
+- That file is now in all 65 folders and subfolders under `/APlaceForPax` in Drive.
+- The VM daemon ack is still pending — the daemon cannot reach the phone's device endpoint, so it has not seen the handshake event or acked it yet.
+
 ## Rules
 
 - No reboots anywhere. Process-aware updating (rollover) only — new versions get new stamped file names; launch the new; clean up the former names.
